@@ -9,7 +9,7 @@
 }
 
 body {
-    font-size: 1 rem;
+    font-size: 1rem;
     font-family: 'Montserrat';
 }
 
@@ -63,14 +63,14 @@ section {
     background-color: #0a58ca
     border-radius: 30px;
     border: none;
-    width: 14 em;
-    height: 3 em;
+    width: 14em;
+    height: 3em;
     align-content: center;
 
 }
 
 .display-4 {
-    text-shadow: -5 px 5 px var(--preto);
+    text-shadow: -5px 5px var(--preto);
 }
 
 
@@ -81,7 +81,7 @@ section {
     margin-bottom: 3rem;
     background: url('img/logo_2-removebg-preview\ \(1\).png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180 px 180 px;
+    background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -178,17 +178,17 @@ h2 {
 }
 
 .alto-contraste .nav-link{
-    color: var (--alto-contraste-link);
+    color: var(--alto-contraste-link);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary{
-    background-color: var (--alto-contraste-link);
-    color: var (--alto-contraste-fundo)
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
 }
 
-.alto-contraste #tropicalia {
+.alto-contraste #limkinpark {
     background: none;
 }
 
