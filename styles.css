@@ -19,7 +19,7 @@ header {
 
 
 section {
-    padding-bottom: 5 rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -34,10 +34,10 @@ section {
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
-    border-radius: 80 px;
-    width: 100 %;
-    height: 606 px;
-    padding: 40 px;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
     margin: 0 auto;
 }
 
@@ -45,8 +45,8 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18 rem;
-    width: 45 rem;
+    top: 18rem;
+    width: 45rem;
     height: auto;
 }
 
@@ -55,13 +55,13 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1 rem;
+    gap: 1rem;
 }
 
 
 .botao-inicio {
     background-color: #0a58ca
-    border-radius: 30 px;
+    border-radius: 30px;
     border: none;
     width: 14 em;
     height: 3 em;
@@ -70,15 +70,15 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5 px 5 px var (--preto);
+    text-shadow: -5 px 5 px var(--preto);
 }
 
 
 #linkinpark {
     position: relative;
-    padding-top: 5 rem;
-    margin-top: 3 rem;
-    margin-bottom: 3 rem;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     background: url('img/logo_2-removebg-preview\ \(1\).png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180 px 180 px;
@@ -97,9 +97,9 @@ section {
 
 h2 {
     font-family: 'Lemon', serif;
-    font-size: 2.5 em;
+    font-size: 2.5em;
     font-style: normal;
-    color: var (--preto);
+    color: var(--preto);
 }
 
 #galeria {
@@ -109,24 +109,24 @@ h2 {
 
 .fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180 px 180 px;
+    background-size: 180px 180px;
 }
 
 #contato {
     background-image: url('img/4965007.jpg');
     background-size: cover;
-    padding: 4 rem 0;
+    padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
 
 }
 
 .formulario {
     background-color: #9c9c9c;
-    padding: 2 rem;
+    padding: 2rem;
     /* Espaçamento interno dentro do formulário */
-    border-radius: 10 px;
+    border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10 px rgba (0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -142,8 +142,8 @@ h2 {
 }
 .menu-acessibilidade{
     position: fixed;
-    top:2 rem;
-    right:20 px;
+    top:2rem;
+    right:20px;
     z-index: 1000;
 }
 
@@ -153,28 +153,28 @@ h2 {
 }
 
 .opcoes-acessibilidade{
-    margin-top:10 px;
+    margin-top:10px;
     display: flex;
     flex-direction: column;
 }
 
 .opcoes-acessibilidade button{
-    margin-bottom: 5 px;
+    margin-bottom: 5px;
 }
 .apresenta-lista{
     display: none;
 }
 
 .alto-contraste{
-    background-color: var (--alto-contraste-fundo);
+    background-color: var(--alto-contraste-fundo);
     color: var (--alto-contraste-texto);
 }
 
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario{
-    background-color: var (--alto-contraste-fundo);
-    color: var (--alto-contraste-texto);
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
 
 .alto-contraste .nav-link{
